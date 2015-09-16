@@ -1,0 +1,15 @@
+@prefix : <http://xmlns.com/foaf/0.1/> .
+@base <http://example.org/> .
+
+<alice> a :Person ;
+  :name "Alice" ;
+  :knows <bob>, _:charlie, <dan> .
+
+<bob> a :Person ;
+  :name "Bob" .
+
+_:charlie a :Person ;
+  :name "Charlie" .
+
+<dan> a :Person ;
+  :name "Dan" .

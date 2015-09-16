@@ -1,0 +1,14 @@
+{
+    "@context": {
+        "@vocab": "http://xmlns.com/foaf/0.1/",
+        "knows": { "@type": "@id" }
+    },
+    "@select": [ "?n" ],
+    "@where": {
+        "@id": "http://example.org/alice",
+        "knows": {
+            "@id": {"@var":"?p"},
+            "name": {"@var":"?n"}
+        }
+    }
+}

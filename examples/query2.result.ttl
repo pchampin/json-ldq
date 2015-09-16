@@ -1,0 +1,11 @@
+@prefix : <http://schema.org/> .
+@base <http://example.org/> .
+
+<bob> a :Person ;
+  :name "Bob" .
+
+_:charlie a :Person ;
+  :name "Charlie" .
+
+<dan> a :Person ;
+  :name "Dan" .

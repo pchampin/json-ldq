@@ -1,0 +1,25 @@
+{
+    "@construct": {
+        "@context": "http://schema.org/",
+        "@id": {
+            "@var": "?p"
+        },
+        "@type": "Person",
+        "name": {
+            "@var": "?n"
+        }
+    },
+    "@where": {
+        "@context": {
+            "@vocab": "http://xmlns.com/foaf/0.1/",
+            "knows": {
+                "@type": "@id"
+            }
+        },
+        "@id": "http://example.org/alice",
+        "knows": {
+            "@id": {"@var":"?p"},
+            "name": {"@var":"?n"}
+        }
+    }
+}

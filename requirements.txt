@@ -1,0 +1,4 @@
+rdflib
+pyld
+# dev only dependencies:
+# nose
