@@ -1,13 +1,9 @@
 {
     "@construct": {
         "@context": "http://schema.org/",
-        "@id": {
-            "@var": "?p"
-        },
+        "@id": {"@var":"?p"},
         "@type": "Person",
-        "name": {
-            "@var": "?n"
-        }
+        "name": {"@var": "?n"}
     },
     "@where": {
         "@context": {
